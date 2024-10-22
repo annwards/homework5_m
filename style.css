@@ -1,0 +1,28 @@
+body{
+background-color: rgb(186, 223, 202);
+}
+
+.header{
+display: flex;
+align-items:center;
+}
+
+.h1{
+text-align: center;
+color:blueviolet
+}
+
+.gallery{
+display: flex;
+justify-content: space-between;
+}
+
+.zoom-effect:hover{
+transform: scale(2);
+}
+
+.animate-hover:hover{
+position: relative;
+top: 10px;
+left: 10px;
+}
